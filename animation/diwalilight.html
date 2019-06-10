@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diwali lights</title>
+    <style>
+        body{
+            background-color:lightblue;
+        }
+        .diwali-light
+        {
+            display:flex;
+        }
+        .blink-yellow
+        {
+            width:100px;
+            height:100px;
+            border-radius: 100px;
+            animation: blinkYellow 2s infinite;
+            
+        }
+        @-webkit-keyframes blinkYellow {
+    from { background-color: #FF0; }
+    50% { background-color: #AA0; 
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, 
+        inset #808002 0 -1px 9px,  }
+    to { background-color: #FF0; }
+        }
+        .blink-orange
+        {
+            width:100px;
+            height:100px;
+            border-radius: 100px;
+            animation: blinkOrange 1s infinite; 
+            margin-left:10px;
+        }
+        @-webkit-keyframes blinkOrange {
+    from { background-color:orangered; }
+    50% { background-color: rgb(245, 141, 104); 
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, 
+        inset rgb(245, 141, 104) 0 -1px 9px}
+    to { background-color: orangered; }
+        }
+        .blink-purple
+        {
+            width:100px;
+            height:100px;
+            border-radius: 100px;
+            animation: blinkPurple 2.3s infinite; 
+            margin-left:10px;
+        }
+        @-webkit-keyframes blinkPurple {
+    from { background-color:purple; }
+    50% { background-color: white; 
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, 
+        inset white 0 -1px 9px}
+    to { background-color: purple; }
+        }
+        .blink-green
+        {
+            width:100px;
+            height:100px;
+            border-radius: 100px;
+            animation: blinkGreen 1.5s infinite; 
+            margin-left:10px;
+        }
+        @-webkit-keyframes blinkGreen{
+    from { background-color:green; }
+    50% { background-color: greenyellow; 
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, 
+        inset greenyellow 0 -1px 9px}
+    to { background-color: green; }
+        }
+        .blink-pink
+        {
+            width:100px;
+            height:100px;
+            border-radius: 100px;
+            animation: blinkPink 1s infinite; 
+            margin-left:10px;
+        }
+        @-webkit-keyframes blinkPink{
+    from { background-color:pink; }
+    50% { background-color:papayawhip; 
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, 
+        inset papayawhip 0 -1px 9px}
+    to { background-color: pink; }
+        }
+        .blink-red
+        {
+            width:100px;
+            height:100px;
+            border-radius: 100px;
+            animation: blinkRed 2s infinite; 
+            margin-left:10px;
+        }
+        @-webkit-keyframes blinkRed{
+    from { background-color:red; }
+    50% { background-color:rgb(245, 141, 104); 
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, 
+        inset rgb(245, 141, 104) 0 -1px 9px}
+    to { background-color: red; }
+        }
+        .blink-blue
+        {
+            width:100px;
+            height:100px;
+            border-radius: 100px;
+            animation: blinkBlue 1.3s infinite; 
+            margin-left:10px;
+        }
+        @-webkit-keyframes blinkRed{
+    from { background-color:royalblue; }
+    50% { background-color:aqua; 
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, 
+        inset aqua 0 -1px 9px}
+    to { background-color: royalblue; }
+        }
+    </style>
+</head>
+<body>
+    <div class="diwali-light">
+    <div class="blink-yellow"></div>
+    <div class="blink-orange"></div>
+    <div class="blink-purple"></div>
+    <div class="blink-green"></div>
+    <div class="blink-pink"></div>
+    <div class="blink-red"></div>
+    <div class="blink-blue"></div>
+    </div>
+    
+</body>
+</html>
