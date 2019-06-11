@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple website</title>
+    <link href="./css/style.css" rel="Stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="Stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+    <div class="topnav" id="myTopnav">
+       <span class="header-left"><img src="./imagefolder/image1.jpg"></span> 
+       <span class="header-right">
+        <a href="#news">AboutUs</a>
+        <a href="#contact">Our Service</a>
+        <a href="#about">Our Product</a>
+        <a href="#contact">Gallery</a>
+        <a href="#about">ContactUs</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </span>
+      </div>
+        <div class="body-section">
+                    <section class="left-section">
+                        <img src="./imagefolder/image2.png">
+                    </section>
+                    <section class="right-section">
+                      <span class="right-content">
+                        <h1>Welcome To My Website</h1>
+                        <p>This is the modern information website for you.</p>
+                        <button type="button"> Click here</button>
+                      </span>
+                    </section>
+                  </div>
+                  <div>
+                      <span class="body-header"><h1>About Us</h1></span>
+                  <div class="body-content">
+                    <div class="body-box">
+                      <img src="./imagefolder/team1.jpg">
+                      <span class="body-size">
+                        <h1>Prabhakar</h1>
+                        <h5>Co-Founder</h5>
+                        <p>My self Prabhakar Parida of xyz pvt ltd company.</p>
+                      </span>
+                    </div>
+                    <div class="body-box">
+                        <img src="./imagefolder/team2.jpg">
+                        <span class="body-size">
+                            <h1>Prabhakar</h1>
+                            <h5>Co-Founder</h5>
+                            <p>My self Prabhakar Parida of xyz pvt ltd company.</p>
+                          </span>
+                      </div>
+                    <div class="body-box">
+                        <img src="./imagefolder/team3.jpg">
+                        <span class="body-size">
+                            <h1>Prabhakar</h1>
+                            <h5>Co-Founder</h5>
+                            <p>My self Prabhakar Parida of xyz pvt ltd company.</p>
+                          </span>
+                    </div>
+                    <div class="body-box">
+                        <img src="./imagefolder/team4.jpg">
+                        <span class="body-size">
+                            <h1>Prabhakar</h1>
+                            <h5>Co-Founder</h5>
+                            <p>My self Prabhakar Parida of xyz pvt ltd company.</p>
+                          </span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="footer-section">
+                      <p class="footer-p">
+                      © Copyright 2012-2019 Prabhakar Parida
+                      </p>
+                  </div> 
+                  <script>
+                      function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                          x.className += " responsive";
+                        } else {
+                          x.className = "topnav";
+                        }
+                      }
+                      </script>
+</body>
+</html>
